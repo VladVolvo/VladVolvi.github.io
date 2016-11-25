@@ -1,0 +1,98 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-image: url(fon.jpg);
+	font: 14px Trebuchet MS;
+	height: 100%;
+	min-height: 100%
+
+}
+a{
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover{
+	color: #ff9933;
+}
+#article{
+	padding: 10px;
+	width: 760px;
+	margin-bottom: 15px;
+}
+
+#article:hover{
+	background: #e8f2ff;
+}
+
+#article img{
+	float: left;
+	margin-right: 10px;
+}
+
+#article p {
+	padding-right: 10px;
+}
+
+.wrapper{
+	width: 1000px;
+	min-height: 100%;
+	margin: 0 auto;
+}
+#header{
+	width: 100%;
+	height: 100px;
+	background-image: url(header.jpg);
+	margin-bottom: 10px;
+	margin-top: 10px;
+	box-shadow: 3px 3px 7px 0px rgba(0,0,0,0.75);
+}
+
+#content {
+	width: 100%;
+	background: #e2e9f1;
+	margin-bottom: 10px;
+	box-shadow: 3px 3px 7px 0px rgba(0,0,0,0.75);
+} 
+#footer{
+	width: 98%;
+	padding: 10px;
+	color: #eaeaea;
+	text-align: center;
+	margin-bottom: 10px;
+	background: #2f3c4d;
+	box-shadow: 3px 3px 7px 0px rgba(0,0,0,0.75);
+}
+
+#footer:hover{
+	color: #000;
+}
+
+#levo{
+	width: 780px;
+	float: left;
+	padding: 10px;
+}
+
+#pravo{
+	width: 200px;
+	float: right;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#pravo_menu a{
+	display: block;
+	text-align: center;
+	margin: 5px 0;
+}
+
+#header img{
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+
